@@ -30,7 +30,9 @@ Cross-pollination helps at least 30 percent of the world’s crops and 90 percen
 ### The BeeImage Dataset
 This dataset contains 5,100+ Bee images annotated with location, date, time, subspecies, health condition, caste, and pollen.
 
-I have taken only Bee health in consideration and there are 6 classes related to Bee health namely 'hive being robbed', 'healthy', 'few varrao, hive beetles','ant problems', 'missing queen', 'Varroa, Small Hive Beetles'. I have split the dataset into train and test of 85% and 15% respectievely.
+I have taken only Bee health in consideration and there are 6 classes related to Bee health namely 'hive being robbed', 'healthy', 'few varrao, hive beetles','ant problems', 'missing queen', 'Varroa, Small Hive Beetles'. I have split the dataset into train and test of 85% and 15% respectievely. Below are some images from dataset.
+
+<img src="Images/Images_dataset.png">
 
 
 ### Data preprocessing and Image augmentation
@@ -64,6 +66,8 @@ Hyperparameter | Epoch | Learning rate | Activation | Optimizer | Batch Size | l
 --- | --- | --- | --- |--- |--- |---
 Value | 50 | 0.0001 | ReLu | Adam | 256 | categorical cross entropy 
 
+<img src="Images/Graph.png">
+
 
 
 
@@ -71,14 +75,16 @@ Value | 50 | 0.0001 | ReLu | Adam | 256 | categorical cross entropy
 
 I have used F1-score and confusion matrix to evaluate the model. To implement this I have used the classification_report and confusion_matrix function from scikit-learn library.
 Below are the results for F1-score and confusion matrix.
-<img src="Images/Graph.png">
+<img src="Images/classification_report.png">
+<img src="Images/confusion_matrix.png">
 
 ## Results :
 
 Since I have trained the model on 85% of images and remaining mages are used for testing purpose, I have got the F1-score of 93%. Below are the some oof the predictions of images from the testing data by the trained model.
 
 
-
+<img src="Images/result_1.png">
+<img src="Images/result_2.png">
 
 
 
