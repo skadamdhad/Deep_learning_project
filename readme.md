@@ -6,7 +6,7 @@ Honey Bee health classification using CNN.
 
 Repository Content
 
-•	Shubham_Final_Submission.ipynb <br />
+•	Project_ADL_32920.ipynb <br />
 •	Images Folder - Images from results obtained.
  
 ## Abstract
