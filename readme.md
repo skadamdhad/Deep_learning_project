@@ -62,9 +62,9 @@ I have used the Transfer learning==> Feature extraction approach to train the mo
 
 
 
-Hyperparameter | Epoch | Learning rate | Activation | Optimizer | Batch Size | loss
+Hyperparameter | Epoch | Learning rate | Optimizer | Batch Size | loss
 --- | --- | --- | --- |--- |--- |---
-Value | 50 | 0.0001 | ReLu | Adam | 256 | categorical cross entropy 
+Value | 50 | 0.0001  | Adam | 256 | categorical cross entropy 
 
 <img src="Images/Graph.png">
 
