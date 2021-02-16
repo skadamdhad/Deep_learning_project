@@ -38,7 +38,7 @@ I have taken only Bee health in consideration and there are 6 classes related to
 ### Data preprocessing and Image augmentation
 
 
-Since the dataset contains many fields irrelevent to health of Bees, therefore processed the data using Pandas Dataframe and created a  training labelled data of Bees Health. also all iamges are resized to fix size of 100 , For this I have taken the reference code from '' repository from Kaggle.
+Since the dataset contains many fields irrelevent to health of Bees, therefore processed the data using Pandas Dataframe and created a  training labelled data of Bees Health. also all iamges are resized to fix size of 100 * 100 * 3.
 Image augmentation is done to avoid overfitting of the model, ImageDataGenerator class from Keras is useed to perform the augmentation. zoom,flip and shift techniques are used to perform augmenation.
 
 ### VGG-19
