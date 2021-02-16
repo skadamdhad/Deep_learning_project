@@ -75,9 +75,11 @@ Value | 50 | 0.0001 | ReLu | Adam | 256 | categorical cross entropy
 
 I have evaluated the model using precision,recall and F1-score metrics. To implement this I have used the classification_report function from scikit-learn library.
 
-Precision - TP/(TP+FP) (RafaelPadilla, 2020)
+Precision - TP/(TP+FP) 
 
 Recall-  TP/(TP+FN)
+
+F1-score - (2 * precision * recall) / (precision +recall)
 
 <img src="Images/classification_report.png">
 <img src="Images/confusion_matrix.png">
