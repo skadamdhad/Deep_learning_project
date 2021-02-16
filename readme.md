@@ -82,6 +82,9 @@ Recall-  TP/(TP+FN)
 F1-score - (2 * precision * recall) / (precision +recall)
 
 <img src="Images/classification_report.png">
+
+I have also plot the confusion matrix to evaluate the model. To implement this I have used confusion_matrix function from scikit-learn library.
+
 <img src="Images/confusion_matrix.png">
 
 ## Results :
