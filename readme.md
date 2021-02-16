@@ -14,7 +14,7 @@ Repository Content
 Every third bite of food relies on pollination by bees. 
  Pollinators transfer pollen and seeds from one flower to another, 
  fertilizing the plant to it can grow and produce food.
-Cross-pollination helps at least 30 percent of the world’s crops and 90 percent of our wild plants to thrive. Without bees to spread seeds, many plants—including food crops—would die off.
+Cross-pollination helps at least 30 percent of the world’s crops and 90 percent of our wild plants to thrive. Without bees to spread seeds, many plants—including food crops—would die off.(NRDC,2015)
  The main aim of this project is to track the health of Bees using the images of Bees in "The BeeImage Dataset: Annotated Honey Bee Images" dataset using the 
  convolutionalneural netwok. I have used transfer learning approach with Vgg-19 pretrained model to classify 
  health of Bees.
@@ -28,7 +28,7 @@ Cross-pollination helps at least 30 percent of the world’s crops and 90 percen
 ## Introduction
 
 ### The BeeImage Dataset
-This dataset contains 5,100+ Bee images annotated with location, date, time, subspecies, health condition, caste, and pollen.
+This dataset contains 5,100+ Bee images annotated with location, date, time, subspecies, health condition, caste, and pollen.(Jenny,2019)
 
 I have taken only Bee health in consideration and there are 6 classes related to Bee health namely 'hive being robbed', 'healthy', 'few varrao, hive beetles','ant problems', 'missing queen', 'Varroa, Small Hive Beetles'. I have split the dataset into train and test of 85% and 15% respectievely. Below are some images from dataset. The dataset can be downloaded from this link https://www.kaggle.com/jenny18/honey-bee-annotated-images/. 
 
@@ -75,11 +75,10 @@ Value | 50 | 0.0001  | Adam | 256 | categorical cross entropy
 
 I have evaluated the model using precision,recall and F1-score metrics. To implement this I have used the classification_report function from scikit-learn library.
 
-Precision - TP/(TP+FP) , where TP is true positive , FP is false positive ,FN is false negative
+Precision - TP/(TP+FP) , where TP is true positive , FP is false positive ,FN is false negative  (Powers,2011)
+Recall-  TP/(TP+FN) (Powers,2011)
 
-Recall-  TP/(TP+FN)
-
-F1-score - (2 * precision * recall) / (precision +recall)
+F1-score - (2 * precision * recall) / (precision +recall) (Powers,2011)
 
 <img src="Images/classification_report.png">
 
@@ -101,6 +100,14 @@ Since I have trained the model on 85% of images and remaining mages are used for
 
 
 ## References
+
+Jenny Yang (2019). The BeeImage Dataset: Annotated Honey Bee Images, https://www.kaggle.com/jenny18/honey-bee-annotated-images
+
+NRDC (2015). Busy as a bee:Pollinators put food on the table, https://www.nrdc.org/sites/default/files/bee-deaths-FS.pdf
+
+POWERS, D. (2011). EVALUATION: FROM PRECISION, RECALL AND F-MEASURE TO ROC,INFORMEDNESS, MARKEDNESS & CORRELATION. Journal of Machine LearningTechnologies ISSN: 2229-3981 & ISSN: 2229-399X, Volume 2, Issue 1, 37-63.
+
+
 
 
 
