@@ -89,7 +89,7 @@ I have also plot the confusion matrix to evaluate the model. To implement this I
 
 ## Results :
 
-Since I have trained the model on 85% of images and remaining mages are used for testing purpose, I have got the F1-score of 93%. Below are the some of the predictions of images from the testing data by the trained model.
+Since I have trained the model on 85% of images and remaining images are used for testing purpose, I have got the accuracy of 93% for the test images. Below are the some of the predictions of images from the testing data by the trained model.
 
 
 <img src="Images/result_1.png">
