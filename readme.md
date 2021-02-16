@@ -75,7 +75,7 @@ Value | 50 | 0.0001 | ReLu | Adam | 256 | categorical cross entropy
 
 I have evaluated the model using precision,recall and F1-score metrics. To implement this I have used the classification_report function from scikit-learn library.
 
-Precision - TP/(TP+FP) 
+Precision - TP/(TP+FP) , where TP is true positive , FP is false positive ,FN is false negative
 
 Recall-  TP/(TP+FN)
 
