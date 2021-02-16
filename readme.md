@@ -71,7 +71,7 @@ Value | 50 | 0.0001 | ReLu | Adam | 256 | categorical cross entropy
 
 I have used F1-score and confusion matrix to evaluate the model. To implement this I have used the classification_report and confusion_matrix function from scikit-learn library.
 Below are the results for F1-score and confusion matrix.
-<img src="Images/Truck_AP.png">
+<img src="Images/Graph.png">
 
 ## Results :
 
