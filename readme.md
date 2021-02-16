@@ -73,8 +73,11 @@ Value | 50 | 0.0001 | ReLu | Adam | 256 | categorical cross entropy
 
 ## Evaluation of Model:
 
-I have used F1-score and confusion matrix to evaluate the model. To implement this I have used the classification_report and confusion_matrix function from scikit-learn library.
-Below are the results for F1-score and confusion matrix.
+I have evaluated the model using precision,recall and F1-score metrics. To implement this I have used the classification_report function from scikit-learn library.
+
+Precision - TP/(TP+FP) (RafaelPadilla, 2020)
+
+Recall-  TP/(TP+FN)
 
 <img src="Images/classification_report.png">
 <img src="Images/confusion_matrix.png">
