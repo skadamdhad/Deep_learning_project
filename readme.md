@@ -39,7 +39,7 @@ I have taken only Bee health in consideration and there are 6 classes related to
 
 
 Since the dataset contains many fields irrelevent to health of Bees, therefore processed the data using Pandas Dataframe and created a  training labelled data of Bees Health. also all iamges are resized to fix size of 100 * 100 * 3.
-Image augmentation is done to avoid overfitting of the model, ImageDataGenerator class from Keras is useed to perform the augmentation. zoom,flip and shift techniques are used to perform augmenation.
+Image augmentation is done to avoid overfitting of the model, ImageDataGenerator class from Keras is used to perform the augmentation. zoom,flip and shift techniques are used to perform augmenation.
 
 ### VGG-19
 
